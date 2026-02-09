@@ -42,6 +42,14 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+
+            implementation(projects.game.domain)
+            implementation(libs.koin.compose.viewmodel)
+            implementation(libs.coil)
+            implementation(libs.coil.ktor)
+            implementation(compose.material)
+            implementation(compose.materialIconsExtended)
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

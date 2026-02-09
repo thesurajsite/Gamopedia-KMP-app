@@ -51,6 +51,7 @@ kotlin {
             implementation(libs.ktor.client.content.negotiation)
 
             implementation(libs.koin.core)
+            implementation(libs.androidx.compose.material.icons.extended)
 
         }
         commonTest.dependencies {
